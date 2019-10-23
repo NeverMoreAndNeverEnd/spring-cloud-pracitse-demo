@@ -16,6 +16,7 @@ public class MyController {
 
     @RequestMapping(value = "/hi")
     public String hi(){
+        System.out.println(foo);
         return foo;
 
     }
