@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7406d3dd-9a3c-49e8-9f3b-e7213262e602" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-client/src/main/java/com/minjihong/controller/MyController.java" afterPath="$PROJECT_DIR$/config-client/src/main/java/com/minjihong/controller/MyController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springcloudconfigrepo/eureka-server-dev.properties" afterPath="$PROJECT_DIR$/../springcloudconfigrepo/eureka-server-dev.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springcloudconfigrepo/eureka-server-prod.yml" afterPath="$PROJECT_DIR$/../springcloudconfigrepo/eureka-server-prod.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springcloudparent/eureka-server/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../springcloudparent/eureka-server/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springcloudparent/eureka-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../springcloudparent/eureka-server/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config-client/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -739,7 +734,7 @@
       <updated>1571820689614</updated>
       <workItem from="1571820692943" duration="532000" />
       <workItem from="1571821239613" duration="3599000" />
-      <workItem from="1571880774329" duration="10137000" />
+      <workItem from="1571880774329" duration="10423000" />
     </task>
     <task id="LOCAL-00001" summary="create parent pom.xml">
       <created>1571821548448</created>
@@ -766,10 +761,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14268000" />
+    <option name="totallyTimeSpent" value="14554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
