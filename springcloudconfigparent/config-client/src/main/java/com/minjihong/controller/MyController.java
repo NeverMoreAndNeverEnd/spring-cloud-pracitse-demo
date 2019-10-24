@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 
-    @Value("${foo}")
+    @Value("${server.port}")
     private String foo;
 
 
