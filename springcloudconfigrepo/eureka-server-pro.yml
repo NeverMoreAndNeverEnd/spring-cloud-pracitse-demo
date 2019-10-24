@@ -12,6 +12,5 @@ eureka:
 spring:
   application:
     name:eureka-server
-  profiles:
-    active:pro
+ 
 
