@@ -13,5 +13,5 @@ spring:
   application:
     name:eureka-server
   profiles:
-    prod
+    active: pro
 
