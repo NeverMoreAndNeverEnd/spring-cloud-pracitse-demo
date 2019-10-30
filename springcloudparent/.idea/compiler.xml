@@ -8,18 +8,24 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="service-feign" />
+        <module name="service-hello" />
         <module name="service-hi" />
         <module name="service-ribbon" />
+        <module name="service-sayhello" />
         <module name="service-zuul" />
+        <module name="zipkin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="service-feign" target="1.8" />
+      <module name="service-hello" target="1.8" />
       <module name="service-hi" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-sayhello" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="springcloudparent" target="1.8" />
+      <module name="zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

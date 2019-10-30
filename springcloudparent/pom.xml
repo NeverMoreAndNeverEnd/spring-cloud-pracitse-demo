@@ -19,6 +19,12 @@
     <modules>
         <module>eureka-server</module>
         <module>service-hi</module>
+        <module>zipkin</module>
+        <module>service-zuul</module>
+        <module>service-feign</module>
+        <module>service-ribbon</module>
+        <module>service-sayhello</module>
+        <module>service-hello</module>
     </modules>
 
     <properties>
