@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/service-hello/pom.xml" />
         <option value="$PROJECT_DIR$/service-sayhello/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-peer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-lucy/pom.xml" />
+        <option value="$PROJECT_DIR$/service-turbine/pom.xml" />
       </list>
     </option>
   </component>

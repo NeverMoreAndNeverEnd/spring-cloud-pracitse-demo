@@ -14,11 +14,10 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableHystrixDashboard
 @EnableCircuitBreaker
 @EnableDiscoveryClient
-//@SpringCloudApplication
-public class ServiceHiApplication {
+public class ServiceLucyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceHiApplication.class, args);
+		SpringApplication.run(ServiceLucyApplication.class, args);
 	}
 
 }

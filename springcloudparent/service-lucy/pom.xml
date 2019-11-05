@@ -9,12 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.minjihong</groupId>
-	<artifactId>service-hi</artifactId>
+	<artifactId>service-lucy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>service-hi</name>
+	<name>service-lucy</name>
 	<description>Demo project for Spring Boot</description>
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

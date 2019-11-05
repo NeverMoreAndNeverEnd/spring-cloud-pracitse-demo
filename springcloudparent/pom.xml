@@ -25,6 +25,8 @@
         <module>service-ribbon</module>
         <module>service-sayhello</module>
         <module>service-hello</module>
+        <module>service-lucy</module>
+        <module>service-turbine</module>
     </modules>
 
     <properties>
