@@ -26,8 +26,8 @@ public class MyFilter extends ZuulFilter{
     post： 路由之后
     error：发送错误调用
 
-    filterOrder：过滤的顺序
-    shouldFilter：这里可以写逻辑判断，是否要过滤，本文true,永远过滤。
+    filterOrder：过滤的顺序 数字越小表示顺序越高，越先执行
+    shouldFilter：这里可以写逻辑判断，是否要过滤，本文true,永远过滤。true表示执行，false表示不执行
     run：过滤器的具体逻辑。可用很复杂，包括查sql，nosql去判断该请求到底有没有权限访问
     */
 

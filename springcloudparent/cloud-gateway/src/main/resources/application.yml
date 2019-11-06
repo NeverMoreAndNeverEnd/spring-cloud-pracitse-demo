@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: time_route
+        uri: http://www.ityouknow.com
+        predicates:
+         - Host=**.foo.org
+         - Path=/headers
+         - Method=GET
+         - Header=X-Request-Id, \d+
+         - Query=foo, ba.
+         - Query=baz
+         - Cookie=chocolate, ch.p
+         - After=2018-01-20T06:06:06+08:00[Asia/Shanghai]

@@ -27,4 +27,9 @@ public class DemoController {
     public String hiError(String name) {
         return "hi,"+name+",sorry,error!";
     }
+
+    @RequestMapping("/foo")
+    public String foo(String foo) {
+        return "hello "+foo+"!";
+    }
 }
