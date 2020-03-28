@@ -1,7 +1,7 @@
 package com.minjihong.cloud.provider.payment.service.impl;
 
+import com.minjihong.cloud.api.commons.entities.Payment;
 import com.minjihong.cloud.provider.payment.dao.PaymentDao;
-import com.minjihong.cloud.provider.payment.entities.Payment;
 import com.minjihong.cloud.provider.payment.service.PaymentService;
 import org.springframework.stereotype.Service;
 

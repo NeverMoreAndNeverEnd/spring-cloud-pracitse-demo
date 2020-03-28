@@ -1,7 +1,8 @@
 package com.minjihong.cloud.provider.payment.controller;
 
-import com.minjihong.cloud.provider.payment.entities.CommonResult;
-import com.minjihong.cloud.provider.payment.entities.Payment;
+
+import com.minjihong.cloud.api.commons.entities.CommonResult;
+import com.minjihong.cloud.api.commons.entities.Payment;
 import com.minjihong.cloud.provider.payment.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -17,7 +18,7 @@ public class PaymentController {
 
 
     @PostMapping(value = "/payment/create")
-    public CommonResult create(Payment payment) {
+    public CommonResult create(@RequestBody Payment payment) {
         int result = paymentService.create(payment);
         log.info("*******************插入结果:" + result);
         if (result > 0) {

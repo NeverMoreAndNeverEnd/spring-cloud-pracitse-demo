@@ -1,6 +1,7 @@
 package com.minjihong.cloud.provider.payment.service;
 
-import com.minjihong.cloud.provider.payment.entities.Payment;
+
+import com.minjihong.cloud.api.commons.entities.Payment;
 
 public interface PaymentService {
 

@@ -1,17 +1,15 @@
-package com.minjihong.cloud.provider.payment;
+package com.minjihong.cloud.consumer.order;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@MapperScan("com.minjihong.cloud.provider.payment.dao")
 @EnableEurekaClient
-public class CloudProviderPayment8001Application {
+public class CloudconsumerorderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CloudProviderPayment8001Application.class, args);
+        SpringApplication.run(CloudconsumerorderApplication.class, args);
     }
 
 }

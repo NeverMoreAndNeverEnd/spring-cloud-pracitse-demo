@@ -1,7 +1,5 @@
-package com.minjihong.cloud.provider.payment.entities;
+package com.minjihong.cloud.api.commons.entities;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,7 +11,6 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class Payment implements Serializable {
 
-    @TableId(type = IdType.AUTO)
     private Long id;
 
     private String serial;

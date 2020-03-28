@@ -1,4 +1,4 @@
-package com.minjihong.cloud.provider.payment.entities;
+package com.minjihong.cloud.api.commons.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

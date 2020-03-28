@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8001
 
 spring:
   application:
@@ -20,3 +20,10 @@ mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
