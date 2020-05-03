@@ -120,6 +120,8 @@
         <module>cloud-stream-rabbit-provider8801</module>
         <module>cloud-stream-rabbit-consumer8802</module>
         <module>cloud-stream-rabbit-consumer8803</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9002</module>
     </modules>
 
 </project>
