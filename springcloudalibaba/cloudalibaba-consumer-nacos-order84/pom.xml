@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.minjihong</groupId>
-    <artifactId>cloudalibaba-sentinel-service8401</artifactId>
+    <artifactId>cloudalibaba-consumer-nacos-order84</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloudalibaba-sentinel-service8401</name>
+    <name>cloudalibaba-consumer-nacos-order84</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,6 +19,7 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.minjihong</groupId>
             <artifactId>cloud-api-commons</artifactId>
@@ -26,13 +27,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-datasource-nacos</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <dependency>
@@ -41,8 +37,13 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
         </dependency>
 
         <dependency>
