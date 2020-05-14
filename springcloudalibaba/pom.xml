@@ -128,6 +128,7 @@
         <module>cloudalibaba-provider-payment9004</module>
         <module>cloudalibaba-consumer-nacos-order83</module>
         <module>cloudalibaba-consumer-nacos-order84</module>
+        <module>seata-order-service2001</module>
     </modules>
 
 </project>
