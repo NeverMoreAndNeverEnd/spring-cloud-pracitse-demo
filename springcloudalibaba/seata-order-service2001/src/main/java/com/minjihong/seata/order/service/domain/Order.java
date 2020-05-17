@@ -1,5 +1,6 @@
 package com.minjihong.seata.order.service.domain;
 
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -15,7 +16,7 @@ import java.math.BigDecimal;
 @TableName(value = "t_order")
 public class Order {
 
-    @TableId
+    @TableId(value = "id",type = IdType.AUTO)
     private Long id;
 
     @TableField(value = "user_id")

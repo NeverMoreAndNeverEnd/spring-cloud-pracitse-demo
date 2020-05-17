@@ -1,19 +1,17 @@
-package com.minjihong.seata.order.service;
+package com.minjihong.seata.account.service;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@MapperScan("com.minjihong.seata.order.service.dao")
 @EnableDiscoveryClient
-@EnableFeignClients
-public class SeataOrderService2001Application {
+@MapperScan("com.minjihong.seata.account.service.dao")
+public class SeataAccountService2003Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SeataOrderService2001Application.class, args);
+        SpringApplication.run(SeataAccountService2003Application.class, args);
     }
 
 }
